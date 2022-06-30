@@ -8,8 +8,8 @@
       "@components/*": ["shared/components/*"],
       "@directives/*": ["shared/directives/*"],
       "@enums/*": ["shared/enums/*"],
-      "@interfaces": ["shared/interfaces/*"],
-      "@services": ["shared/services/*"]
+      "@interfaces/*": ["shared/interfaces/*"],
+      "@services/*": ["shared/services/*"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
