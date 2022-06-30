@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { HomeModule } from '../pages/home/home.module';
+import { HomeModule } from '@pages/home/home.module';
 
 const baseModule = [HomeModule];
 
