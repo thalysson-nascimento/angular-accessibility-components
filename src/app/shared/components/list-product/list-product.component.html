@@ -1,12 +1,7 @@
 <div class="container_product">
-  <ul
-    aria-labelledby="list-product-add-on"
-    *ngFor="let product of data"
-    class="container_product__item"
-  >
-    <li>
+  <ul role="listitem" aria-labelledby="list-product-add-on">
+    <li class="container_product__item" *ngFor="let product of data">
       <p>{{ product.title }}</p>
-      <span>{{ product.subTitle }}</span>
     </li>
   </ul>
 </div>
